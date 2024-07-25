@@ -10,5 +10,8 @@
   "description": "",
   "dependencies": {
     "prettier": "^3.3.3"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.7"
   }
 }
