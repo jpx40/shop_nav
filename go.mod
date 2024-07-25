@@ -1,4 +1,4 @@
-module offlineclub.de/shop_nav
+module github.com/jpx40/shop_nav
 
 go 1.22.5
 

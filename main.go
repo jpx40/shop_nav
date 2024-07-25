@@ -22,7 +22,7 @@ func main() {
 
 	r.Get("/home/", func(w http.ResponseWriter, r *http.Request) {
 		r.URL.Query()
-		templ.Handler(Hello("world2")).ServeHTTP(w, r)
+		templ.Handler(templates.Home()).ServeHTTP(w, r)
 	})
 	r.Get("/hello", func(w http.ResponseWriter, r *http.Request) {
 		templ.Handler(Hello("world")).ServeHTTP(w, r)
